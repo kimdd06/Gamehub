@@ -145,6 +145,23 @@ footer{
     background-color: #f4f4f4;
     margin: 0;
     color: white;
+
+    input {
+        height: 35px;
+        width: 100%; /* Makes the input box take full width of the container */
+        padding: 10px; /* Adds space inside the input box */
+        font-size: 18px; /* Increases text size */
+        border: 2px solid #ccc; /* Adds a border */
+        border-radius: 5px; /* Slightly rounds the corners */
+        margin-bottom: 10px; /* Adds space between inputs */
+    }
+    
+    
+    input:focus {
+        border-color: #007bff; /* Highlights input when focused */
+        outline: none;
+    }
+    
     
     
 }
@@ -156,6 +173,8 @@ footer{
         box-shadow: 2px 2px 10px rgba(232, 168, 225, 0.1);
         backdrop-filter: blur(20px); 
         -webkit-backdrop-filter: blur(10200x); 
+        margin: 5px;
+
     }
     
     
@@ -169,7 +188,7 @@ button {
     border: none;
     border-radius: 5px;
     color: #ffffff;
-    padding: 10px;
+    padding-inline: 150px;
 }
 
 
@@ -194,6 +213,34 @@ background: url('../images/bggame.jpg') no-repeat center center/cover fixed;
     margin: 0;
     color: #fffafa;
 }
+
+input {
+    height: 35px;
+    width: 100%; 
+    padding: 10px; /* Adds space inside the input box */
+    font-size: 18px; /* Increases text size */
+    border: 2px solid #ccc; /* Adds a border */
+    border-radius: 5px; /* Slightly rounds the corners */
+    margin-bottom: 10px; /* Adds space between inputs */
+}
+
+
+input:focus {
+    border-color: #007bff; 
+    outline: none;
+}
+
+.label{
+    height: 25px;
+    width: 80%; 
+    padding: 10px; 
+    font-size: 15px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    margin-bottom: 10px;
+}
+
+
 
 .kkkk {
     background: rgba(255, 255, 255, 0.1); 
